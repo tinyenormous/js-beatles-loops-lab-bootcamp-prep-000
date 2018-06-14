@@ -33,7 +33,7 @@ function iLoveTheBeatles(number){
   var i=0
   do-while(number<15){
     newArray.push('I love the Beatles!')
-    number++
+    number=number+1
     // i++
   }
   return newArray
