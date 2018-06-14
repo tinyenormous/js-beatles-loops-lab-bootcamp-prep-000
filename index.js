@@ -14,6 +14,7 @@ function johnLennonFacts(facts){
   var exclMark = '!!!'
   
   while (facts.length > 0) {
+    console.log(facts[0])  
     newArray.push(facts[0].concat(exclMark))
     facts.shift()
     console.log(facts[0])
