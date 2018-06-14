@@ -11,8 +11,9 @@ function theBeatlesPlay(arrayMusic,arrayInstrument){
 function johnLennonFacts(facts){
   newArray=[]
   var i =0
+  var exclMark = "!!!"
   while (i<facts.length){
-    newArray.push(facts[i])
+    newArray.push(facts[i].concat(exclMark))
     i++
 }
 // 3) Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 :
