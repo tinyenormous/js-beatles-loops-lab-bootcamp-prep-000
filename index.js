@@ -5,7 +5,7 @@ function theBeatlesPlay(arrayMusic,arrayInstrument){
   for ( var i=0; i<arrayMusic.length ; i++ ) {
     console.log('${i}')
     // newArray.push('${arrayMusic[i]} plays ${i}')
-    newArray.push('I am ${i} strange loops.')
+    newArray.push(`I am ${i} strange loops.`)
   }
   return newArray
 }
