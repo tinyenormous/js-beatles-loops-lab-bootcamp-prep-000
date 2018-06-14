@@ -3,6 +3,7 @@
 function theBeatlesPlay(arrayMusic,arrayInstrument){
   var newArray=[]
   for ( var i=0; i<arrayMusic.length ; i++ ) {
+    console.log('${i}')
     newArray.push('${arrayMusic[i]} plays ${i}')
   }
   return newArray
