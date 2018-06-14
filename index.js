@@ -19,7 +19,7 @@ function johnLennonFacts(facts){
     newArray.push( facts[i].concat(exclMark) )
     i--
     // console.log(facts[i])
-    
+  console.log(newArray)
   return newArray  
 }
 }
