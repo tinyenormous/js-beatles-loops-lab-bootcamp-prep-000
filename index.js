@@ -7,8 +7,8 @@ function theBeatlesPlay(arrayMusic,arrayInstrument){
   }
   return newArray
 }
-// 2) Beatles Loops johnLennonFacts returns an array of strings with exclamationpoints:
 
+// 2) Beatles Loops johnLennonFacts returns an array of strings with exclamationpoints:
 function johnLennonFacts(facts){
   var newArray=[]
   var exclMark = '!!!'
@@ -25,7 +25,6 @@ function johnLennonFacts(facts){
   return newArray  
   
 }
-
 
 // 3) Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 :
 // 4) Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' once when passed the parameter 17:
