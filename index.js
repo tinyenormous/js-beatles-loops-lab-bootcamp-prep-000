@@ -9,7 +9,7 @@ function theBeatlesPlay(arrayMusic,arrayInstrument){
 }
 // 2) Beatles Loops johnLennonFacts returns an array of strings with exclamationpoints:
 function johnLennonFacts(facts){
-  newArray=[]
+  var newArray=[]
   var i =0
   var exclMark = "!!!"
   while (i<facts.length){
