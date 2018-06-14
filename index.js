@@ -19,7 +19,7 @@ function johnLennonFacts(facts){
     newArray.push( facts[0].concat(exclMark) )//push adds it to the end.
     // i--
     facts.shift() //shift removes the first element
-    // console.log(facts[i])
+    console.log(facts.length)
   console.log(newArray)
   return newArray  
 }
