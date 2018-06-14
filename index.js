@@ -18,7 +18,7 @@ function johnLennonFacts(facts){
     facts.shift()
     // i++
     // i=i+1
-    console.log(i)
+    console.log(facts[0])
   return newArray  
 }
 }
