@@ -18,7 +18,7 @@ function johnLennonFacts(facts){
     // console.log(i)  
     newArray.push( facts[0].concat(exclMark) )
     // i--
-    facts.pop()
+    facts.shift()
     // console.log(facts[i])
   console.log(newArray)
   return newArray  
