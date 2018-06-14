@@ -15,7 +15,7 @@ function johnLennonFacts(facts){
   var i = facts.length-1
   while (i > -2) {
     console.log(i)  
-    newArray.push(facts[i].concat(exclMark))
+    newArray.push( facts[i].concat(exclMark) )
     i--
     // console.log(facts[i])
     
