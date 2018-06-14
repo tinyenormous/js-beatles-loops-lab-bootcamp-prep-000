@@ -16,9 +16,9 @@ function johnLennonFacts(facts){
   
   while (facts.length > 0) {
     // console.log(i)  
-    newArray.push( facts[0].concat(exclMark) )
+    newArray.push( facts[0].concat(exclMark) )//push adds it to the end.
     // i--
-    facts.shift()
+    facts.shift() //shift removes the first element
     // console.log(facts[i])
   console.log(newArray)
   return newArray  
