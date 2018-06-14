@@ -20,9 +20,10 @@ function johnLennonFacts(facts){
     // i--
     facts.shift() //shift removes the first element
     console.log(facts.length)
+  }
   console.log(newArray)
   return newArray  
-}
+  
 }
 
 
