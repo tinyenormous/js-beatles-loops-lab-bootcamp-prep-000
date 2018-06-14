@@ -2,7 +2,7 @@
 // 1) Beatles Loops returns an array of strings containing what instruments eachmusician plays:
 function theBeatlesPlay(arrayMusic,arrayInstrument){
   var newArray=();
-  for (var i=0,i<arrayMusic.length, i++) {
+  for (var i=0,i<arrayMusic, i++) {
     newArray.push()
   }
 }
