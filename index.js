@@ -12,12 +12,12 @@ function theBeatlesPlay(arrayMusic,arrayInstrument){
 function johnLennonFacts(facts){
   var newArray=[]
   var exclMark = '!!!'
-  
-  while (facts.length > 0) {
-    console.log(facts[0])  
-    newArray.push(facts[0].concat(exclMark))
-    facts.shift()
-    console.log(facts[0])
+  var i= facts.length
+  while (i > 0) {
+    console.log(facts[i])  
+    newArray.push(facts[i].concat(exclMark))
+    i--
+    console.log(facts[i])
     
   return newArray  
 }
