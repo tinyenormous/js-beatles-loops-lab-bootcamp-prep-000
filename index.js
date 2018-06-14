@@ -33,7 +33,7 @@ function iLoveTheBeatles(number){
   var i=0
   if (number<15){
     newArray.push('I love the Beatles!')
-    number=number+1
+    number++
     // i++
   }
   return newArray
