@@ -3,7 +3,7 @@
 function theBeatlesPlay(arrayMusic,arrayInstrument){
   var newArray=[]
   for ( var i=0, i<arrayMusic , i++ ) {
-    newArray.push()
+  //   newArray.push()
   }
 }
 // 2) Beatles Loops johnLennonFacts returns an array of strings with exclamationpoints:
