@@ -16,6 +16,7 @@ function johnLennonFacts(facts){
     // newArray.push(facts[i].concat(exclMark))
     // i++
     i=i+1
+    console.log(i)
   return newArray  
 }
 // 3) Beatles Loops iLoveTheBeatles returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 :
