@@ -12,7 +12,7 @@ function johnLennonFacts(facts){
   var newArray=[]
   var i=0
   var exclMark = "!!!"
-  while (i < facts.length){
+  while (i < 2) {
     // newArray.push(facts[i].concat(exclMark))
     // i++
     i=i+1
